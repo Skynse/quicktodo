@@ -1,3 +1,5 @@
+![showcase](images/showcase.png)
+
 # SETUP
 
 `pip install -r requirements.txt`
