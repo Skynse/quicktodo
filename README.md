@@ -1,4 +1,4 @@
-#SETUP
+# SETUP
 
 `pip install -r requirements.txt`
 
@@ -8,6 +8,6 @@
 
 `python3 manage.py runserver`
 
-#REQUIREMENTS
+# REQUIREMENTS
 
 python3.7>=3.8.2
