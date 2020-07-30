@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block local_content %}
+
+<form method="POST">
+{% csrf_token %}
+<div class='w3-input w3-white' style='text-align: center; margin-left:auto; margin-right: auto; max-width: 50%'>
+	<input placeholder="some nice todo" name='todo' id='todo' >
+	<button class='w3-btn w3-black w3-round' name='add'>+</button>
+	<button class='w3-btn w3-red' name='remove'>Remove</button>
+</div>
+
+
+{% for todo in todos %}
+<ul style='text-align: center; list-style: none; margin-left: 25%; margin-right: 25%;'>
+	<li>
+	<input name='todoCheck' value='{{ todo.id }}'type='checkbox' style='display:inline-block;white-space: nowrap; padding-right: 20px;'>
+	<p style="display: inline-block;">{{ todo.todo }}</p>
+</li>
+</div>
+</ul>
+{% endfor %}
+</form>
+{% endblock %}
