@@ -1,6 +1,6 @@
 ![showcase](images/showcase.png)
 
-# SETUP
+# Setup
 
 `pip install -r requirements.txt`
 
@@ -10,6 +10,6 @@
 
 `python3 manage.py runserver`
 
-# REQUIREMENTS
+# Requirements
 
 python3.7>=3.8.2
