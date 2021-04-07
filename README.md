@@ -12,4 +12,4 @@
 
 # Requirements
 
-python3.7>=3.8.2
+python3.7>=3.0.12
